@@ -1,0 +1,6 @@
+D:\eid_middleware\eid-mw\doc\sdk\wrappers\C# pkcs11wrappers\pkcs11net\bin\Debug\Net.Pkcs11.dll
+D:\eid_middleware\eid-mw\doc\sdk\wrappers\C# pkcs11wrappers\pkcs11net\bin\Debug\Net.Pkcs11.pdb
+D:\eid_middleware\eid-mw\doc\sdk\wrappers\C# pkcs11wrappers\pkcs11net\obj\Debug\Pkcs11Net.csproj.AssemblyReference.cache
+D:\eid_middleware\eid-mw\doc\sdk\wrappers\C# pkcs11wrappers\pkcs11net\obj\Debug\Pkcs11Net.csproj.CoreCompileInputs.cache
+D:\eid_middleware\eid-mw\doc\sdk\wrappers\C# pkcs11wrappers\pkcs11net\obj\Debug\Net.Pkcs11.dll
+D:\eid_middleware\eid-mw\doc\sdk\wrappers\C# pkcs11wrappers\pkcs11net\obj\Debug\Net.Pkcs11.pdb

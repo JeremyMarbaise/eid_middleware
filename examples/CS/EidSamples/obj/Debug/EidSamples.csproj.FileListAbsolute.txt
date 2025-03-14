@@ -1,0 +1,12 @@
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\EidSamples.XML
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\EidSamples.exe
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\EidSamples.pdb
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\Net.Pkcs11.dll
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\Net.Pkcs11.pdb
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\bin\Debug\de\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\obj\Debug\EidSamples.csproj.AssemblyReference.cache
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\obj\Debug\EidSamples.csproj.CoreCompileInputs.cache
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\obj\Debug\EidSamples.csproj.Up2Date
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\obj\Debug\EidSamples.exe
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\EidSamples\obj\Debug\EidSamples.pdb

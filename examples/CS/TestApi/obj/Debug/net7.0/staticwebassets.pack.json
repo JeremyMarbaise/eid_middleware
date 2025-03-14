@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TestApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TestApi.props",
+      "PackagePath": "build\\TestApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TestApi.props",
+      "PackagePath": "buildMultiTargeting\\TestApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TestApi.props",
+      "PackagePath": "buildTransitive\\TestApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

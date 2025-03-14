@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TestApi/1.0.0": {
+        "dependencies": {
+          "EidSamples": "1.0.0",
+          "Pkcs11Net": "1.0.0"
+        },
+        "runtime": {
+          "TestApi.dll": {}
+        }
+      },
+      "EidSamples/1.0.0": {
+        "dependencies": {
+          "Pkcs11Net": "1.0.0"
+        },
+        "runtime": {
+          "EidSamples.exe": {}
+        },
+        "resources": {
+          "de/Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Pkcs11Net/1.0.0": {
+        "runtime": {
+          "Net.Pkcs11.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.QualityTools.UnitTestFramework/10.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "17.0.34511.75"
+          }
+        },
+        "resources": {
+          "de/Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll": {
+            "locale": "de"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EidSamples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pkcs11Net/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.QualityTools.UnitTestFramework/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
