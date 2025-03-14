@@ -5,6 +5,7 @@
 # API pour la carte eID belge - Projet ASP.NET
 
 Ce projet fournit une API pour interagir avec la carte eID belge en utilisant un wrapper C# (`EidSamples` et `Pkcs11Net`). Il permet de récupérer des données personnelles (par exemple, nom, date de naissance, photo) depuis la carte eID, de générer des défis (challenges), d'authentifier des utilisateurs, et de signer des données en utilisant les clés privées stockées sur la carte.
+L'api Asp.net se trouve dans [examples/CS/TestApi](examples/CS/TestApi).
 
 
 ---
@@ -66,9 +67,23 @@ Ce projet fournit une API pour interagir avec la carte eID belge en utilisant un
      ```bash
      dotnet run
      ```
-   - L'API sera disponible à l'adresse `http://localhost:5000` (ou `https://localhost:5001` pour HTTPS).
+   - L'API sera disponible à l'adresse `http://localhost:5013` (ou `https://localhost:7043` pour HTTPS).
 
+
+### OU PLUS SIMPLE
+
+1. **Cloner le dépôt** :
+```bash
+   git clone https://github.com/JeremyMarbaise/eid-mw.git
+```
+2. **Utiliser Visual Studio et ouvrir le fichier sln**
+
+  Le fichier sln se trouve dans [doc/sdk/examples/CS/EidSamples.sln](examples/CS/EidSamples.sln)
+
+3. **Lancer le projet**
+   Avec Visual Studio choisir le projet de source TestApi et lancer
 ---
+
 
 ## Endpoints de l'API
 
