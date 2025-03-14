@@ -87,7 +87,7 @@ L'api Asp.net se trouve dans [examples/CS/TestApi](examples/CS/TestApi).
 
 ## Endpoints de l'API
 
-###Fichier HTML### pour tester l'api se trouve dans [index.html](index.html)
+### Fichier HTML pour tester l'api se trouve dans [index.html](index.html)
 
 ### 1. **Récupérer la photo**
 - **Endpoint**: `GET /photo`
