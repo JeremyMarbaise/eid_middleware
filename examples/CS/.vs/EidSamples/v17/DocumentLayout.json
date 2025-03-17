@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05307ECA-9214-4DC2-B583-806C713256F9}|TestApi\\TestApi.csproj|d:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\cs\\testapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05307ECA-9214-4DC2-B583-806C713256F9}|TestApi\\TestApi.csproj|solutionrelative:testapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05307ECA-9214-4DC2-B583-806C713256F9}|TestApi\\TestApi.csproj|d:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\cs\\testapi\\testapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{05307ECA-9214-4DC2-B583-806C713256F9}|TestApi\\TestApi.csproj|solutionrelative:testapi\\testapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05307ECA-9214-4DC2-B583-806C713256F9}|TestApi\\TestApi.csproj|d:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\cs\\testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05307ECA-9214-4DC2-B583-806C713256F9}|TestApi\\TestApi.csproj|solutionrelative:testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\eidsamples\\tests\\datatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\tests\\datatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|d:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\cs\\eidsamples\\tests\\certificatevaliditytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\tests\\certificatevaliditytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\eidsamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\eidsamples\\tests\\signtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\tests\\signtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\eidsamples\\tests\\datatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\tests\\datatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\eidsamples\\tests\\integritytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\tests\\integritytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CertificateValidityTests.cs",
+              "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\EidSamples\\tests\\CertificateValidityTests.cs",
+              "RelativeDocumentMoniker": "EidSamples\\tests\\CertificateValidityTests.cs",
+              "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\EidSamples\\tests\\CertificateValidityTests.cs",
+              "RelativeToolTip": "EidSamples\\tests\\CertificateValidityTests.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:37:19.431Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
@@ -47,37 +52,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "TestApi\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "TestApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T14:48:03.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestApi",
-              "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\TestApi.csproj",
-              "RelativeDocumentMoniker": "TestApi\\TestApi.csproj",
-              "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\TestApi.csproj",
-              "RelativeToolTip": "TestApi\\TestApi.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-14T14:21:19.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\Program.cs",
               "RelativeDocumentMoniker": "TestApi\\Program.cs",
               "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\Program.cs",
               "RelativeToolTip": "TestApi\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBsAAAA0AAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAYwIgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T18:06:15.03Z",
               "EditorCaption": ""
@@ -108,27 +88,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IntegrityTests.cs",
-              "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\EidSamples\\tests\\IntegrityTests.cs",
-              "RelativeDocumentMoniker": "EidSamples\\tests\\IntegrityTests.cs",
-              "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\EidSamples\\tests\\IntegrityTests.cs",
-              "RelativeToolTip": "EidSamples\\tests\\IntegrityTests.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAMwBwAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:31:36.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DataTests.cs",
               "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\EidSamples\\tests\\DataTests.cs",
               "RelativeDocumentMoniker": "EidSamples\\tests\\DataTests.cs",
               "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\EidSamples\\tests\\DataTests.cs",
               "RelativeToolTip": "EidSamples\\tests\\DataTests.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAWwFkAAAA/AAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAuwKkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:31:40.211Z"
+              "WhenOpened": "2025-03-13T17:31:40.211Z",
+              "EditorCaption": ""
             }
           ]
         }

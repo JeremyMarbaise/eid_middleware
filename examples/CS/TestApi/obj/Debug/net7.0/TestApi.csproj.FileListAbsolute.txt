@@ -19,8 +19,6 @@ D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.As
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.AssemblyInfo.cs
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.csproj.CoreCompileInputs.cache
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.MvcApplicationPartsAssemblyInfo.cache
-D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.RazorAssemblyInfo.cache
-D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.RazorAssemblyInfo.cs
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.sourcelink.json
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\staticwebassets.build.json
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\staticwebassets.development.json
@@ -36,3 +34,5 @@ D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\refint\Tes
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.pdb
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.genruntimeconfig.cache
 D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\ref\TestApi.dll
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.RazorAssemblyInfo.cache
+D:\eid_middleware\eid-mw\doc\sdk\examples\CS\TestApi\obj\Debug\net7.0\TestApi.RazorAssemblyInfo.cs
