@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\Windows\\SDK_Examples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{163EC832-3896-4C9C-B181-6FFE58BC74AE}|SDK_CertRegistration.vcxproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\src\\cert_carddata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB1C567-F8A4-4E4E-BF99-C011F18C3376}|SDK_Challenge.vcxproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\src\\challenge.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cert_carddata.c",
+              "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\src\\cert_carddata.c",
+              "RelativeDocumentMoniker": "..\\..\\src\\cert_carddata.c",
+              "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\src\\cert_carddata.c",
+              "RelativeToolTip": "..\\..\\src\\cert_carddata.c",
+              "ViewState": "AQIAABcAAAAAAAAAAAAhwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-25T12:57:52.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "challenge.c",
+              "DocumentMoniker": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\src\\challenge.c",
+              "RelativeDocumentMoniker": "..\\..\\src\\challenge.c",
+              "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\C\\src\\challenge.c",
+              "RelativeToolTip": "..\\..\\src\\challenge.c",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-25T12:56:24.133Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
