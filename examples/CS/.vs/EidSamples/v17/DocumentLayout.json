@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\readdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|d:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\cs\\eidsamples\\integrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\eidsamples\\integrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DFFDF49-8418-4109-8BF7-69507757A2A8}|EidSamples\\EidSamples.csproj|solutionrelative:eidsamples\\integrity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "EidSamples\\Integrity.cs",
               "ViewState": "AQIAAGkAAAAAAAAAAAAYwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:48:36.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T19:48:36.005Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "TestApi\\Program.cs",
               "ToolTip": "D:\\eid_middleware\\eid-mw\\doc\\sdk\\examples\\CS\\TestApi\\Program.cs",
               "RelativeToolTip": "TestApi\\Program.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAA0wF0AAAAAAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAiwGQAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T19:14:01.551Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "EidSamples\\ReadData.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAOABAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:03:43.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T15:03:43.901Z"
             },
             {
               "$type": "Document",
