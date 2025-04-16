@@ -180,7 +180,7 @@ const documentSignature = await signResponse.json();
 
 ---
 
-Cette documentation reflète l'état actuel de votre API telle que décrite dans le code source fourni. Les principales différences avec l'ancienne documentation incluent :
+Changement à la version précédente :
 - La suppression des endpoints obsolètes (`/name`, `/dob`, `/labels`)
 - L'ajout des nouveaux endpoints (`/auth/register`, `/auth/publickey`)
 - La mise à jour du mécanisme d'authentification
