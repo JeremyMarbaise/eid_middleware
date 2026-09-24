@@ -1,67 +1,65 @@
-Voici la documentation mise à jour pour votre API locale d'interaction avec la carte d'identité électronique belge :
+**English** | [Français](README.fr.md)
 
----
+# Belgian eID Card API - ASP.NET Project
 
-# API pour la carte eID belge - Projet ASP.NET
+This project provides an API to interact with the Belgian eID card using a C# wrapper (`EidSamples`). It can read personal data from the eID card, authenticate users through cryptographic signatures, and sign data.
 
-Ce projet fournit une API pour interagir avec la carte eID belge en utilisant un wrapper C# (`EidSamples`). Il permet de récupérer des données personnelles depuis la carte eID, d'authentifier des utilisateurs via des signatures cryptographiques, et de signer des données.
-
-## Table des matières
-1. [Fonctionnalités](#fonctionnalités)
-2. [Dépendances](#dépendances)
+## Table of contents
+1. [Features](#features)
+2. [Dependencies](#dependencies)
 3. [Installation](#installation)
-4. [Endpoints de l'API](#endpoints-de-lapi)
-5. [Exemples d'utilisation](#exemples-dutilisation)
-6. [Sécurité](#sécurité)
+4. [API endpoints](#api-endpoints)
+5. [Usage examples](#usage-examples)
+6. [Security](#security)
 
 ---
 
-## Fonctionnalités
-- Récupération des données personnelles :
+## Features
+- Reading personal data:
   - Photo
-  - Nom complet
-  - Numéro national
-  - Date de naissance
-  - Genre
-  - Adresse
-- Authentification via signature cryptographique
-- Signature de données arbitraires
-- Récupération du certificat d'authentification
-- Récupération de la clé publique
+  - Full name
+  - National number
+  - Date of birth
+  - Gender
+  - Address
+- Authentication through a cryptographic signature
+- Signing arbitrary data
+- Retrieving the authentication certificate
+- Retrieving the public key
 
 ---
 
-## Dépendances
-1. **EidSamples** : Wrapper C# pour interagir avec la carte eID belge
-2. **ASP.NET Core** : Framework pour construire l'API
-3. **Middleware eID belge** : Doit être installé sur le système
+## Dependencies
+1. **EidSamples**: C# wrapper to interact with the Belgian eID card
+2. **ASP.NET Core**: framework used to build the API
+3. **Belgian eID middleware**: must be installed on the system
 
 ---
 
 ## Installation
-1. **Cloner le dépôt** :
+1. **Clone the repository**:
 ```bash
    git clone https://github.com/JeremyMarbaise/eid-mw.git
 ```
-2. **Utiliser Visual Studio et ouvrir le fichier sln**
+2. **Open the sln file with Visual Studio**
 
-  Le fichier sln se trouve dans [doc/sdk/examples/CS/EidSamples.sln](examples/CS/EidSamples.sln)
+  The sln file is located at [doc/sdk/examples/CS/EidSamples.sln](examples/CS/EidSamples.sln)
 
-3. **Lancer le projet**
-   Avec Visual Studio choisir le projet de source TestApi et lancer
+3. **Run the project**
+   In Visual Studio, select TestApi as the startup project and run it
 ---
 
 
-L'API sera disponible sur `http://localhost:7043` (port par défaut).
+The API will be available at `http://localhost:7043` (default port).
 
 ---
 
-## Endpoints de l'API
+## API endpoints
 
-### 1. Récupération des données d'enregistrement
+### 1. Registration data
 - **Endpoint**: `GET /auth/register`
-- **Description**: Récupère toutes les données personnelles nécessaires à l'enregistrement
-- **Réponse**:
+- **Description**: Returns all the personal data needed for registration
+- **Response**:
 ```json
 {
   "name": "Doe John",
@@ -72,48 +70,48 @@ L'API sera disponible sur `http://localhost:7043` (port par défaut).
 }
 ```
 
-### 2. Récupération de la photo
+### 2. Photo
 - **Endpoint**: `GET /photo`
-- **Description**: Récupère la photo au format JPEG
-- **Réponse**: Binaire JPEG (Content-Type: image/jpeg)
+- **Description**: Returns the photo as a JPEG
+- **Response**: JPEG binary (Content-Type: image/jpeg)
 
-### 3. Authentification
+### 3. Authentication
 - **Endpoint**: `POST /auth/authentication`
-- **Description**: Signe une concaténation de challenge, timestamp et salt
-- **Requête**:
+- **Description**: Signs a concatenation of challenge, timestamp and salt
+- **Request**:
 ```json
 {
   "challenge": "base64_encoded_challenge",
   "salt": "base64_encoded_salt"
 }
 ```
-- **Réponse**: Signature au format binaire (retourné comme tableau d'octets)
+- **Response**: Binary signature (returned as a byte array)
 
-### 4. Signature de données
+### 4. Data signing
 - **Endpoint**: `POST /auth/sign`
-- **Description**: Signe des données arbitraires
-- **Requête**:
+- **Description**: Signs arbitrary data
+- **Request**:
 ```json
 {
   "data": "base64_encoded_data"
 }
 ```
-- **Réponse**: Signature au format binaire
+- **Response**: Binary signature
 
-### 5. Récupération du certificat
+### 5. Certificate
 - **Endpoint**: `GET /auth/certificate`
-- **Description**: Récupère le certificat d'authentification
-- **Réponse**:
+- **Description**: Returns the authentication certificate
+- **Response**:
 ```json
 {
   "certificate": "base64_encoded_certificate"
 }
 ```
 
-### 6. Récupération de la clé publique
+### 6. Public key
 - **Endpoint**: `GET /auth/publickey`
-- **Description**: Récupère la clé publique
-- **Réponse**:
+- **Description**: Returns the public key
+- **Response**:
 ```json
 {
   "pubkey": "base64_encoded_public_key"
@@ -122,24 +120,24 @@ L'API sera disponible sur `http://localhost:7043` (port par défaut).
 
 ---
 
-## Exemples d'utilisation
+## Usage examples
 
-### 1. Enregistrement d'un nouvel utilisateur
+### 1. Registering a new user
 ```javascript
-// Récupération des données
+// Fetch the data
 const response = await fetch('http://localhost:5000/auth/register');
 const userData = await response.json();
 
 console.log(userData);
 ```
 
-### 2. Processus d'authentification
+### 2. Authentication flow
 ```javascript
-// Génération des éléments
+// Generate the values
 const challenge = crypto.getRandomValues(new Uint8Array(32));
 const salt = crypto.getRandomValues(new Uint8Array(16));
 
-// Envoi à l'API
+// Send them to the API
 const authResponse = await fetch('http://localhost:5000/auth/authentication', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
@@ -150,10 +148,10 @@ const authResponse = await fetch('http://localhost:5000/auth/authentication', {
 });
 
 const signature = await authResponse.json();
-// Vérification de la signature...
+// Verify the signature...
 ```
 
-### 3. Signature de document
+### 3. Signing a document
 ```javascript
 const documentHash = await crypto.subtle.digest('SHA-256', documentContent);
 
@@ -170,18 +168,18 @@ const documentSignature = await signResponse.json();
 
 ---
 
-## Sécurité
-1. **Fenêtre temporelle** : L'authentification utilise des fenêtres temporelles de 5 minutes pour prévenir les attaques par rejeu
-2. **Concaténation sécurisée** : Les données à signer sont une concaténation de :
-   - Le challenge fourni
-   - Le timestamp de la fenêtre courante
-   - Un salt aléatoire
-3. **CORS** : L'API est configurée avec une politique CORS permissive (`AllowAllOrigins`) - à restreindre en production
+## Security
+1. **Time window**: authentication uses 5-minute time windows to prevent replay attacks
+2. **Secure concatenation**: the data to sign is a concatenation of:
+   - The provided challenge
+   - The timestamp of the current window
+   - A random salt
+3. **CORS**: the API is configured with a permissive CORS policy (`AllowAllOrigins`) - restrict it in production
 
 ---
 
-Changement à la version précédente :
-- La suppression des endpoints obsolètes (`/name`, `/dob`, `/labels`)
-- L'ajout des nouveaux endpoints (`/auth/register`, `/auth/publickey`)
-- La mise à jour du mécanisme d'authentification
-- L'ajout de la récupération de l'adresse et du genre
+Changes since the previous version:
+- Removed obsolete endpoints (`/name`, `/dob`, `/labels`)
+- Added new endpoints (`/auth/register`, `/auth/publickey`)
+- Updated the authentication mechanism
+- Added address and gender retrieval
